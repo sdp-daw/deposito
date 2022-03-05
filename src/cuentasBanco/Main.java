@@ -13,7 +13,8 @@ public class Main {
 		double saldoActual;
 		saldoActual = cuentaPersonal.estado();
 		System.out.println("El saldo actual es" + saldoActual);
-
+		System.out.println("Si al ver su saldo comprueba que hay menos de lo que se esperaba, posiblemente le hayan cargado algún recibo o le hayamos cobrado alguna comisión, por algo... (supuestos no excluyentes)");
+		
 		try {
 			cuentaPersonal.retirar(2300);
 		} catch (Exception e) {
